@@ -4,6 +4,7 @@ library(neuralnet)
 # Function to generate random student grades
 generate_student_grades <- function(n_students) {
   set.seed(123)
+  
   # Generate random grades for quizzes, assignments, and tests
   quizzes <- round(runif(n_students, min = 0, max = 100), 1) 
   assignments <- round(runif(n_students, min = 0, max = 100), 1) 
@@ -21,8 +22,10 @@ student_grades <- generate_student_grades(100)
 
 # Function to determine pass/fail based on average grade
 classify_pass_fail <- function(grades, pass_threshold = 50) {
+  
   # Calculate average grade
   avg_grade <- rowMeans(grades)
+  
   # Classify as pass or fail based on threshold
   pass_fail <- ifelse(avg_grade >= pass_threshold, "Pass", "Fail")
   return(pass_fail)
