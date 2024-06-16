@@ -1,6 +1,6 @@
 # Student Grade Predictor
 
-The Student Grade Predictor utilizes randomly generated student scores to predict whether the student fails or passes. This project includes a sample dataset that is used to train the network; however, the project provided automatically creates a new dataset every instance run to train the data set. 
+The Student Grade Predictor utilizes randomly generated student scores to predict whether the student fails or passes based on student Grades and Attendance. This project includes a sample dataset that is used to train the network; however, the project provided automatically creates a new dataset every instance run to train the data set. 
 
 ## Information
 
