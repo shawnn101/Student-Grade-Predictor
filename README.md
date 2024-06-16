@@ -2,28 +2,19 @@
 
 The Student Grade Predictor utilizes 
 
+## Information
+
+Date Created: April, 2024 <br />
+Date Published: June, 2024 <br />
+IDE: RStudio
+
+
 ## Libraries
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+- neuralnet <br />
 
-```bash
-pip install foobar
-```
+NOTE: Install [R and RStudio](https://posit.co/download/rstudio-desktop/) to the desktop. Utilize the library manager in RStudio to install 'neuralnet'
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first
