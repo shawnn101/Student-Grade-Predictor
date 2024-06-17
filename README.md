@@ -15,3 +15,5 @@ IDE: RStudio
 
 NOTE: Install [R and RStudio](https://posit.co/download/rstudio-desktop/) to the desktop. Utilize the library manager in RStudio to install 'neuralnet'
 
+## NN Diagram
+![Student Grade PLOT](https://github.com/shawnn101/Student-Grade-Predictor/assets/172000787/5c7f6cc4-807a-4c68-9650-04627fb948f8)
