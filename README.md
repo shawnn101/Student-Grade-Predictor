@@ -4,8 +4,6 @@ The Student Grade Predictor utilizes randomly generated student scores to predic
 
 ## Information
 
-Date Created: April, 2024 <br />
-Date Published: June, 2024 <br />
 IDE: RStudio
 
 
